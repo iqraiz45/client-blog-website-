@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section  class="headers">
+        <nav>
+          <a href="index.html"><img src=""</a>
+          <div class="nav-links" id = "navlinks">
+            <i class="fa fa-times"  onclick="hidemenu()"></i>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            
+            <li><a href="contact.html">CONTACT</a></li>
+         </div>
+         <i class="fa fa-bars" onclick="showmenu()" ></i>
+        </nav>
+        <div class="text-box">
+            <h1> CONTACT  </h1>
+        </div>
+    </section>
+    <div class="contact-section">
+        <h2 class="contact-title">DROP ME A LINE</h2>
+        <p class="contact-description">
+            I like meeting people, hearing feedback, collaborating with cool companies and supporting interesting projects.<br><br>
+            If you’ve got some words you’d like to hit me in the eyes – give me a message, I’d love to hear from you.<br><br>
+            If you’re a brand who is interested in partnering with Me, please email 
+            <a href="mailto:jonathan@chriswillx.com">mohammadsufi@gmail.com</a>.
+        </p>
+        <form class="contact-form">
+            <div class="input-row">
+                <input type="text" class="input-field" placeholder="Name" required>
+                <input type="email" class="input-field" placeholder="Email" required>
+            </div>
+            <textarea class="input-field message-field" placeholder="Message" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+    <section class="footer">
+        <h4> About Us
+        </h4>
+        <p>Lorem ipsum dolor, sit amet consectetur
+          <br> adipisicing elit. Doloremque placeat sint amet quos. Ex quia eius animi odit. Quas quod quos id sapiente, vel exercitationem facilis 
+          repellendus, aliquid est rem optio facere!</p>
+      </section>
+          
+        <div class="icon">
+          <p>&copy; 2024 Sufiyan. Privacy Policy</p>
+                <p>Site design by Another Designer</p>
+                <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+                <a href="https://www.youtube.com/@FIVESPORTZ/">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/five.sportz/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://twitter.com/sufizm05">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/sufiyan">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+        
+        </div>
+        <p> made with -----Iqra</p>
+        
+        
+          <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+              navlinks.style.right="0";
+        
+            }
+            function hidemenu(){
+              navlinks.style.right="-200px";
+               
+            }
+          </script>
+       
+    
+</body>
+</html>
